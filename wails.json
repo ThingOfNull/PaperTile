@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "go-printtile-pro",
+  "outputfilename": "go-printtile-pro",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Nullthingxs",
+    "email": "16662311+Nullthingxs@users.noreply.github.com"
+  },
+  "info": {
+    "companyName": "Nullthingxs",
+    "productName": "打印切图拼版工具",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2026",
+    "comments": "图片切片 / 拼版打印工具"
+  }
+}

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #1f2937;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  font-family:
+    "Segoe UI Variable",
+    "Segoe UI",
+    "Microsoft YaHei UI",
+    system-ui,
+    sans-serif;
+}
+
+/* 允许输入框正常选中文本。 */
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 px-3.5 py-2
+      bg-fluent-500 text-white text-sm font-medium
+      rounded-fluent shadow-fluent1
+      hover:bg-fluent-600 active:bg-fluent-700
+      disabled:bg-gray-300 disabled:cursor-not-allowed
+      transition-colors;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 px-3.5 py-2
+      bg-white text-gray-700 text-sm font-medium
+      rounded-fluent border border-gray-300 shadow-fluent1
+      hover:bg-gray-50 active:bg-gray-100
+      disabled:opacity-50 disabled:cursor-not-allowed
+      transition-colors;
+  }
+  .input-base {
+    @apply w-full px-2.5 py-1.5 text-sm
+      bg-white text-gray-800
+      border border-gray-300 rounded-fluent
+      focus:outline-none focus:ring-2 focus:ring-fluent-500/40 focus:border-fluent-500
+      transition;
+  }
+  .label-base {
+    @apply block text-xs font-medium text-gray-500 mb-1;
+  }
+  .card {
+    @apply bg-white rounded-fluent shadow-fluent1 border border-gray-200;
+  }
+}
