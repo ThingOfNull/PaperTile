@@ -38,10 +38,10 @@ wails build
 ### 截图
 
 首页截图：  
-![首页截图](gitimg/img1.png)
+<img src="gitimg/img1.png" alt="首页截图" width="50%" />
 
 预览截图：  
-![预览截图](gitimg/img2.png)
+<img src="gitimg/img2.png" alt="预览截图" width="50%" />
 
 ### 百度云配置
 
@@ -91,10 +91,10 @@ wails build
 ### Screenshots
 
 Home screen:  
-![Home screenshot](gitimg/img1.png)
+<img src="gitimg/img1.png" alt="Home screenshot" width="50%" />
 
 Preview screen:  
-![Preview screenshot](gitimg/img2.png)
+<img src="gitimg/img2.png" alt="Preview screenshot" width="50%" />
 
 ### Baidu Cloud Config
 
