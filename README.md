@@ -1,6 +1,6 @@
 # PaperTile / 自动切图
 
-桌面打印切图与拼版工具，支持自动分页导出 PDF。  
+打印切图与拼版工具，支持自动分页导出 PDF。  
 Desktop image tiling and print-imposition tool with automatic PDF pagination.
 
 ## 中文
