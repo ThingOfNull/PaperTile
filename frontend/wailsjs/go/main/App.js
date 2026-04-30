@@ -14,10 +14,18 @@ export function GetAppFeatures() {
   return window['go']['main']['App']['GetAppFeatures']();
 }
 
+export function GetBaiduConfig() {
+  return window['go']['main']['App']['GetBaiduConfig']();
+}
+
 export function LoadImage(arg1) {
   return window['go']['main']['App']['LoadImage'](arg1);
 }
 
 export function OpenImageDialog() {
   return window['go']['main']['App']['OpenImageDialog']();
+}
+
+export function SaveBaiduConfig(arg1) {
+  return window['go']['main']['App']['SaveBaiduConfig'](arg1);
 }

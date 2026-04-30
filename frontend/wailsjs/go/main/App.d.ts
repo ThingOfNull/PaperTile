@@ -8,6 +8,10 @@ export function ExportPDF(arg1:main.ExportRequest):Promise<main.ExportResponse>;
 
 export function GetAppFeatures():Promise<main.AppFeatures>;
 
+export function GetBaiduConfig():Promise<main.BaiduConfigPayload>;
+
 export function LoadImage(arg1:string):Promise<main.ImageInfo>;
 
 export function OpenImageDialog():Promise<main.ImageInfo>;
+
+export function SaveBaiduConfig(arg1:main.BaiduConfigPayload):Promise<main.BaiduConfigPayload>;

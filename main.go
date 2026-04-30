@@ -16,7 +16,7 @@ func main() {
 	app := NewApp()
 
 	err := wails.Run(&options.App{
-		Title:     "打印切图拼版工具",
+		Title:     "PaperTile",
 		Width:     1280,
 		Height:    860,
 		MinWidth:  1024,

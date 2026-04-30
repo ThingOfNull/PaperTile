@@ -14,6 +14,24 @@ export namespace main {
 	        this.upscaleHint = source["upscaleHint"];
 	    }
 	}
+	export class BaiduConfigPayload {
+	    apiKey: string;
+	    secretKey: string;
+	    configured: boolean;
+	    configPath: string;
+	
+	    static createFrom(source: any = {}) {
+	        return new BaiduConfigPayload(source);
+	    }
+	
+	    constructor(source: any = {}) {
+	        if ('string' === typeof source) source = JSON.parse(source);
+	        this.apiKey = source["apiKey"];
+	        this.secretKey = source["secretKey"];
+	        this.configured = source["configured"];
+	        this.configPath = source["configPath"];
+	    }
+	}
 	export class CropRect {
 	    x0: number;
 	    y0: number;
